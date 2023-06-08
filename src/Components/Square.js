@@ -1,9 +1,7 @@
-import React from 'react'
-
-const Square = () => {
+function Square(props) {
     return (
-        <div className={'square'} />
-    )
+        <div className={'square'} {...props}>{props.x ? 'x' : (props.o ? 'o' : '')}</div>
+    );
 }
 
-export default Square
+export default Square;

@@ -1,9 +1,7 @@
-import React from 'react'
-
-const Board = (props) => {
+function Board(props) {
     return (
-        <div className='board' {...props} />
-    )
+        <div className="board" {...props} />
+    );
 }
 
-export default Board
+export default Board;
